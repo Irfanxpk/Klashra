@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+/* Custom reset */
+* {
+  
+  box-sizing: border-box;
+}
+
+/* Fonts */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fff;
+  color: #111;
+}
