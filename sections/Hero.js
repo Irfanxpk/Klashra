@@ -41,7 +41,7 @@ export default function Hero() {
                     />
                     {imageLoaded && (
                         <video
-                            className={`w-full h-full object-cover transition-opacity duration-1000 ${videoReady ? 'opacity-100' : 'opacity-0'}`}
+                            className={`w-full h-full object-cover transition-opacity duration-1000 ${videoReady ? 'opacity-100' : 'opacity-0 '}`}
                             autoPlay
                             muted
                             loop
@@ -51,7 +51,7 @@ export default function Hero() {
                             style={{ filter: 'blur(5px) brightness(0.7)', position: 'absolute', top: 0, left: 0 }}
                         >
                             <source
-                                src="https://www.w3schools.com/html/mov_bbb.mp4"
+                                src="/Video/dubai stock  musieum dron shot.mp4"
                                 type="video/mp4"
                             />
                         </video>

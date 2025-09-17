@@ -76,7 +76,7 @@ export default function Header() {
                 )}
             >
                 <div className="max-w-full mx-auto flex justify-between px-6 py-2 rounded-b-3xl mt-3">
-                    <div className="text-xl font-bold">Rise at Seven</div>
+                    <div className="text-xl font-bold">KLASHRA</div>
 
                     {/* Desktop Nav */}
                     <nav className="hidden md:flex space-x-6 font-medium">

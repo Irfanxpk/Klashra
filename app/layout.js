@@ -2,7 +2,7 @@ import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 export const metadata = {
-  title: "Klashara Consultancy",
+  title: "Klashra Consultancy",
   description: "Business consultancy landing page built with Next.js",
 };
 
