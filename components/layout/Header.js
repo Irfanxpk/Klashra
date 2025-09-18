@@ -69,14 +69,14 @@ export default function Header() {
             <header
                 className={clsx(
                     "fixed top-0 left-0 w-[calc(100%-1rem)] mx-2 z-50 transition-all duration-500 rounded-full mt-2 ",
-                    hidden ? "-translate-y-full mt-0" : "translate-y-0",
+                    hidden ? "-translate-y-full mt-[-0.3rem]" : "translate-y-0",
                     scrolled
                         ? "backdrop-blur-xl bg-white/30"
                         : "bg-transparent text-white"
                 )}
             >
-                <div className="max-w-full mx-auto flex justify-between px-6 py-2 rounded-b-3xl mt-3">
-                    <div className="text-xl font-bold">KLASHRA</div>
+                <div className="max-w-full mx-auto flex justify-between items-center px-6 py-3 rounded-b-3xl ">
+                    <div className="text-xl font-bold"><img className="w-26" src="/images/logo.png" alt="" /></div>
 
                     {/* Desktop Nav */}
                     <nav className="hidden md:flex space-x-6 font-medium">
@@ -89,9 +89,10 @@ export default function Header() {
                     </nav>
 
                     {/* Desktop Button */}
+                    <div className="flex items-center">
                     <button
                         className={clsx(
-                            "hidden md:block rounded-full px-5 py-2 text-sm font-semibold transition-colors",
+                            "hidden md:block rounded-full px-5 py-2 text-sm font-semibold transition-colors self-center  ",
                             scrolled
                                 ? "bg-black text-white hover:bg-gray-800"
                                 : "bg-white text-black hover:bg-gray-200"
@@ -99,7 +100,7 @@ export default function Header() {
                     >
                         Get In Touch ↗
                     </button>
-
+                    </div>
                     {/* Burger */}
                     <button
                         className="md:hidden text-2xl z-50 transition-transform duration-300 menu-button relative w-8 h-8 flex flex-col items-center justify-center space-y-2"
